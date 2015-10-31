@@ -103,6 +103,8 @@ h1 {
     background:#fff;
     float:left;
     position:relative;
+    overflow: hidden;
+    
 }
 .diamond a{
     display:block;
@@ -111,6 +113,69 @@ h1 {
     left:0;
     width:100%;
     height:100%;
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration: none;
+}
+.diamond img {
+    margin: -2% 0 0 -45%;
+    background-size: cover;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.box {
+    width: 31.33%; 
+    float: left;
+    margin: 10% 1% 5% 1%;
+}
+
+.contact p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.copyright {
+    height: 15px;
+    background: #333333;
+    color: #999999;
+    text-align: center;
+    font-family: Montserrat;
+    padding: 1.5%;
+}
+
+.hexagon {
+    position: relative;
+    width: 150px; 
+    height: 86.60px;
+    background-color: #236DB0;
+    display: block;
+    margin: 0 auto;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 43.30px solid #236DB0;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.30px solid #236DB0;
 }
 
 
@@ -423,9 +488,9 @@ div.fade {
     #fillTxt {
         font-family: Montserrat;
         text-align: center;
-        margin-top: 75px;
+        margin-top: 80px;
         color: #333333;
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .fill hr {
@@ -456,7 +521,7 @@ div.fade {
     
     .contact {
         background: black;
-        height: 700px;
+        height: 1030px;
         color: white;
     }
 
@@ -465,7 +530,7 @@ div.fade {
         font-family: Montserrat;
         font-size: 50px;
         text-align: center;
-        margin: 0;
+        margin: 2% 0 5% 0;
     }
     
     

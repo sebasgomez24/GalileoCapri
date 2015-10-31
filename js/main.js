@@ -8,5 +8,5 @@ $(document).ready(function() {
     
     setTimeout(function(){
         $(".fade").fadeIn("slow");
-    }, 2000);  
+    }, 2500);  
 });
